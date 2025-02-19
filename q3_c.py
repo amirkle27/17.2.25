@@ -26,4 +26,4 @@ class Q3C(Question3):
             logging.error(f"Ingredient index out of range - - typed {index} out of {len(recipe.recipe1.ingredients)} ingredients")
             return "Ingredient not found"
         else:
-            return f"{"-" * 50} Question 3b: {"-" * 50}\ningredient number {index} in Pancakes is : {recipe.recipe1[index-1]}"
+            return f"ingredient number {index} in Pancakes recipe is: {recipe.recipe1[index-1]}"
